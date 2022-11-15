@@ -2,24 +2,16 @@
 <project version="4">
   <component name="CheckStyle-IDEA" serialisationVersion="2">
     <checkstyleVersion>10.4</checkstyleVersion>
-    <scanScope>JavaOnly</scanScope>
+    <scanScope>JavaOnlyWithTests</scanScope>
     <option name="thirdPartyClasspath" />
     <option name="activeLocationIds">
-      <option value="17a691e0-eea1-4858-a364-9855065081b5" />
+      <option value="b353f7bb-3aab-4cb2-8224-381f2811bbdf" />
     </option>
     <option name="locations">
       <list>
         <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
         <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
-        <ConfigurationLocation id="17a691e0-eea1-4858-a364-9855065081b5" type="LOCAL_FILE" scope="All" description="CSCD 212">$USER_HOME$/checkstyle/java/ewu/cscd212/ewu-cscd212.xml</ConfigurationLocation>
-        <ConfigurationLocation id="8a8b93b5-91ac-433f-946c-a2bc74aea739" type="LOCAL_FILE" scope="All" description="UW CSE 373">
-          $USER_HOME$/checkstyle/java/uw/cse373/checkstyle.xml
-          <option name="properties">
-            <map>
-              <entry key="config_loc" value="" />
-            </map>
-          </option>
-        </ConfigurationLocation>
+        <ConfigurationLocation id="b353f7bb-3aab-4cb2-8224-381f2811bbdf" type="PROJECT_RELATIVE" scope="All" description="CSCD 212">$PROJECT_DIR$/ewu-cscd212-checkstyle.xml</ConfigurationLocation>
       </list>
     </option>
   </component>
