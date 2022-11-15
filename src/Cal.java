@@ -9,7 +9,7 @@ public class Cal {
     }
 
     public double add() {
-        return 0.0; // TODO: add code
+        return this.num1 + this.num2; // TODO: add code
     }
 
 
@@ -19,5 +19,12 @@ public class Cal {
 
     public double diff() {
         return 0.0; // TODO: add code
+    }
+
+    public Object notNull(final Object input) {
+        if (input == null) {
+            throw new IllegalArgumentException("Bad Args");
+        }
+        return input;
     }
 }
